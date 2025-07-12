@@ -1,0 +1,17 @@
+# ビルド関連
+/dist
+/dist/*
+!dist/.gitkeep
+
+# Electronバイナリなど
+node_modules/
+electron/node_modules/
+
+# 特定のファイルを明示的に無視
+*.exe
+*.asar
+dist/
+node_modules/
+*.exe
+*.asar
+electron/node_modules/
